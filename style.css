@@ -5,7 +5,7 @@ src: url("fonts/AppleGaramond.ttf");
 
 
 html {
-      <!cursor: url("images/cursor1.png"), auto;>
+      <!cursor: url("images/cursorbw.png"), auto;>
 }
 
 h1 {
@@ -21,8 +21,16 @@ h2 {
   position: fixed;
   top: 110px;
   font-size: 20px;
-  background-color: white;
   z-index: 100;
+}
+
+@@media (max-width: 600px) {
+  h2{
+    position: fixed;
+    top: 110px;
+    font-size: 10vw;
+    z-index: 100;
+  }
 }
 
 .gallery {
@@ -45,7 +53,7 @@ h2 {
 .video {
   font-size: 20px;
   top: 160px;
-  left: 430px;
+  left: 440px;
   position: absolute;
 }
 
@@ -117,7 +125,7 @@ f2
   font-size: 40px;
   z-index: 101;
 
-  font-family: helvetica;
+  font-family: times;
   font-style: italic;
 
 
