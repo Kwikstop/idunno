@@ -25,10 +25,10 @@ h2 {
 }
 
 @@media (max-width: 600px) {
-  h2{
+  .gallery{
     position: fixed;
     top: 110px;
-    font-size: 10vw;
+    font-size: 3.5vw;
     z-index: 100;
   }
 }
