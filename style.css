@@ -1,3 +1,9 @@
+@font-face {
+font-family: appleg;
+src: url("fonts/AppleGaramond.ttf");
+}
+
+
 html {
       <!cursor: url("images/cursor1.png"), auto;>
 }
@@ -24,12 +30,22 @@ h2 {
   position: fixed;
   right: 30px;
   top: 40px;
+  background-color: white;
+  z-index: 100;
+
 }
 
 .instagram {
   font-size: 20px;
   top: 160px;
   left: 330px;
+  position: absolute;
+}
+
+.video {
+  font-size: 20px;
+  top: 160px;
+  left: 430px;
   position: absolute;
 }
 
@@ -91,4 +107,46 @@ f1 {
   font-size: 20px;
   top: 2000px;
   left: 20px;
+}
+
+f2
+{
+  position: fixed;
+  bottom: 10px;
+
+  font-size: 40px;
+  z-index: 101;
+
+  font-family: helvetica;
+  font-style: italic;
+
+
+}
+
+f3 {
+  position: absolute;
+  font-size: 20px;
+  top: 1980px;
+  right: 10px;
+  z-index: 101;
+}
+
+.rectangle {
+  top: -10px;
+  left: -10px;
+  height: 160px;
+  width: 2000px;
+  background-color: white;
+  position: fixed;
+  z-index: 99;
+}
+
+.rectangle2 {
+  bottom: -10px;
+  left: -10px;
+  height: 100px;
+  width: 2000px;
+  background-color: white;
+  position: fixed;
+  z-index: 100;
 }
